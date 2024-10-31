@@ -3,7 +3,7 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   base: '/docs4hadoop/',
-  title: "docs4hadoop",
+  title: "Hadoop 文档",
   description: "docs for hadoop",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
