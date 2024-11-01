@@ -17,7 +17,14 @@ export default defineConfig({
         text: 'Examples',
         items: [
           { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: 'Runtime API Examples', link: '/api-examples' },
+          { text: '介绍', link: '/hadoop/介绍' }
+        ]
+      },
+      {
+        text: '部署指南',
+        items: [
+          { text: '环境要求', link: '/hadoop/部署指南/环境要求' }
         ]
       }
     ],

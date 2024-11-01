@@ -4,8 +4,8 @@ layout: home
 
 hero:
   name: "docs4hadoop"
-  text: "docs for hadoop"
-  tagline: My great project tagline
+  text: "Apache Hadoop"
+  tagline: Apache Hadoop 文档
   actions:
     - theme: brand
       text: Markdown Examples
