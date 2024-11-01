@@ -8,8 +8,8 @@ hero:
   tagline: Apache Hadoop 文档
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: 部署指南
+      link: /hadoop/部署指南/
     - theme: alt
       text: API Examples
       link: /api-examples
