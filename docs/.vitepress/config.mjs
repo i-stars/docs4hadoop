@@ -6,10 +6,10 @@ export default defineConfig({
   title: "Hadoop 文档",
   description: "docs for hadoop",
   themeConfig: {
-    outline: 'deep',
+    outline: [1, 3],
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'Home', link: '/' },
+      { text: '主页', link: '/' },
       { text: '部署指南', link: '/hadoop/部署指南' },
       { text: '使用指南', link: '/hadoop/使用指南' }
     ],
@@ -17,12 +17,10 @@ export default defineConfig({
     sidebar: {
       '/': [
         {
-          text: 'Examples',
+          text: '基础概念',
           items: [
-            { text: 'index', link: '/' },
-            { text: 'Markdown Examples', link: '/markdown-examples' },
-            { text: 'Runtime API Examples', link: '/api-examples' },
-            { text: '介绍', link: '/hadoop/介绍' }
+            { text: 'index', link: '/hadoop/基础概念' },
+            { text: '介绍', link: '/hadoop/基础概念/介绍' }
           ]
         }
       ],
