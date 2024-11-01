@@ -6,6 +6,7 @@ export default defineConfig({
   title: "Hadoop 文档",
   description: "docs for hadoop",
   themeConfig: {
+    outline: 'deep',
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
